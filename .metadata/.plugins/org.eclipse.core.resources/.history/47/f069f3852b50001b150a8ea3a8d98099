@@ -1,0 +1,62 @@
+package AgendaBreak;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.jupiter.api.Test;
+
+import Agenda.DatoException;
+import Agenda.Dia;
+
+class agendaBreakDiaTest {
+	
+	@Test
+	public void testDiaCACC_D1_2()   {
+		try {
+			Dia dia = new Dia(-1);
+			fail();
+		}
+		catch(DatoException expected) {
+			assertEquals("El dia debe tomar valor entre 1 y 366", expected.getMessage());
+		}
+		
+	}
+	
+	@Test
+	public void testDiaCACC_D1_4()   {
+		try {
+			Dia dia = new Dia(4);
+			fail();
+		}
+		catch(DatoException expected) {
+			assertEquals("El dia debe tomar valor entre 1 y 366", expected.getMessage());
+		}
+		
+	}
+	
+	@Test
+	public void testDiaCACC_D1_3()   {
+		try {
+			Dia dia = new Dia(367);
+			fail();
+		}
+		catch(DatoException expected) {
+			assertEquals("El dia debe tomar valor entre 1 y 366", expected.getMessage());
+		}
+		
+	}
+	
+	@Test
+	public void testBuscaSlotCACC_D2_1() throws DatoException {
+		Dia dia = new Dia(5);
+		assertEquals(dia.buscaSlot(2),9);
+	}
+		
+	
+	
+
+
+	
+	
+
+}

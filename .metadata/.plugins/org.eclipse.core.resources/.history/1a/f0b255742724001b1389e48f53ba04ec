@@ -1,0 +1,18 @@
+package Movimiento;
+
+public class ArrayEnMovimiento {
+	
+	public ArrayEnMovimiento() {
+		
+		
+	}
+	/* Este método recibe un array de enteros y devuelve un array de la misma longitud, 
+	 * cuyo primer elemento es -1 y que a partir de la segunda posición incluye los valores  
+	 * del array de entrada, excepto el último, y en el mismo orden.
+	 * */
+	int [] moverUno(int [] inArray) {
+		int [] arrayAux = new int[inArray.length+1];
+		return null;
+		
+	}
+}
