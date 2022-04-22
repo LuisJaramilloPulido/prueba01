@@ -1,0 +1,14 @@
+package Movimiento;
+
+public class ArrayEnMovimiento {
+	
+	public ArrayEnMovimiento() {
+		
+		
+	}
+	
+	int [] moverUno(int [] inArray) {
+		return null;
+		
+	}
+}

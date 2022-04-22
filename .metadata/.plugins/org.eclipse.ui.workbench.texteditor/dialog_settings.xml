@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="public String toString() {// overriding the toString() method"/>
+		<list key="findhistory">
+			<item value="public String toString() {// overriding the toString() method"/>
+			<item value="return numMatricula + &quot; &quot; + creditosAprobados;"/>
+			<item value="//&#x09;public String toString() {// overriding the toString() method"/>
+			<item value="&#x09;@Test"/>
+			<item value="@Test"/>
+			<item value="//Si un cliente se da de baja debe dejar de recibir mensajes."/>
+		</list>
+	</section>
+</section>

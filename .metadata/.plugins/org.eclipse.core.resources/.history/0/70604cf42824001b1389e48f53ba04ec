@@ -1,0 +1,16 @@
+package Movimiento;
+
+public class ArrayMultiplica {
+	
+	/*
+	 * La longitud de los arrays puede ser diferente. Si minlong y maxlong representan la longitud mínima 
+	 * y máxima de los dos arrays, el array de salida debe tener longitud maxlong y
+		a. For all i < minlong, outArray[i] = array1[i] * array2[i].
+		b. For all j >= minlong, outArray[j] = longArray[j].
+	 * */
+	
+	int[] multiplica(int[] array1, int[] array2) {
+		
+		
+	}
+}
